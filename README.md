@@ -22,5 +22,9 @@ https://user-images.githubusercontent.com/66934377/161367040-f4e6af6f-22d9-48a5-
 
 The Below Table Language is used in this Project. This Project is Made with Pure **Html,CSS,Javascript**
 
-
+| Languages  | 
+| ------------- |
+| HTML  | 
+| CSS  | 
+| Javascript  | 
 
