@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(60, 60, 60);
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    background-color: #fff;
+    height: 5rem;
+    border-bottom: 2px solid #000;
+}
+
+.logo img {
+    width: 4rem;
+}
+
+.links a {
+    color: #000;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.Buttons {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+}
+
+.Imageback {
+    width: 70%;
+    height: 40rem;
+    display: flex;
+    margin: auto;
+}
+
+.info {
+    width: 100vw;
+    height: 10rem;
+    padding: 40px;
+    background-color: #fff;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.Heading {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.Callbooking {
+    width: 100%;
+    height: 30rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shcduleimage {
+    width: 50vw;
+    height: 25rem;
+}
+
+.infobuttons {
+    padding: 22px;
+}
+
+.infocall {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.navbarTwo {
+    display: none;
+}
+
+.logoTwo img {
+    display: none;
+}
+
+.MenuOpen {
+    display: none;
+}
+
+@media screen and (max-width: 1030px) {
+    .navbar {
+        display: none;
+    }
+
+    .navbarTwo {
+        display: flex;
+        width: 100vw;
+        height: 4rem;
+        background-color: #fff;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px solid #000;
+    }
+
+    .logoTwo img {
+        display: flex;
+        width: 3rem;
+    }
+
+    .Imageback {
+        width: 100vw;
+        height: 25rem;
+    }
+
+    .info {
+        height: 33rem;
+        width: 100vw;
+        padding: 0px;
+    }
+
+    .Callbooking {
+        width: 100vw;
+        height: 60rem;
+        flex-direction: column;
+    }
+
+    .shcduleimage {
+        width: 90vw;
+        height: 20rem;
+    }
+
+    .MenuOpen {
+        position: fixed;
+        display: grid;
+        width: 0vw;
+        height: 45rem;
+        color: #fff;
+        text-align: center;
+        padding-top: 22px;
+        background-color: #fff;
+        overflow: hidden;
+        transition: all;
+        transition-duration: 400ms;
+    }
+
+    .MenuOpen a {
+        color: #000;
+        font-weight: bold;
+    }
+
+}
